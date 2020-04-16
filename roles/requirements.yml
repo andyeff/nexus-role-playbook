@@ -1,0 +1,5 @@
+---
+
+- name: nexus
+  src: git+https://github.com/andyeff/nexus-role.git
+  version: master
