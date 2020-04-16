@@ -1,0 +1,5 @@
+---
+- name: Install Nexus from Role
+  hosts: all
+  roles:
+    - nexus
