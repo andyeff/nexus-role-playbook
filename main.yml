@@ -1,5 +1,6 @@
 ---
 - name: Install Nexus from Role
   hosts: all
+  become: true
   roles:
     - nexus
